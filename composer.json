@@ -14,6 +14,10 @@
         },
         {
             "type": "vcs",
+            "url": "git@github.com:AMDS/scaffold-tooling.git"
+        },
+        {
+            "type": "vcs",
             "url": "git@github.com:govcms/govcms.git"
         },
         {
@@ -26,12 +30,12 @@
         "cweagans/composer-patches": "^1.7",
         "govcms/govcms": "^1.0",
         "govcms/govcms-custom": "*",
-        "govcms/scaffold-tooling": "^2.0",
+        "govcms/scaffold-tooling": "dev-GOVCMSD8-865",
         "symfony/event-dispatcher": "4.3.11 as 3.4.41",
         "webmozart/path-util": "^2.3"
     },
     "require-dev": {
-        "drupal/core-dev": "^9.0"
+        "phpunit/phpunit": "^6.5"
     },
     "conflict": {
         "drupal/drupal": "*"
